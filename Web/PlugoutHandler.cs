@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -32,8 +33,13 @@ namespace lucidcode.LucidScribe.Plugout.Yocto.PowerRelay
                 var settings = new XmlDocument();
                 string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\lucidcode\Lucid Scribe\Plugouts\Web.lsd";
                 settings.Load(path);
-                var url = settings.DocumentElement.SelectSingleNode("Plugout/Description");
-                System.Diagnostics.Process.Start(url.InnerText);
+                var url = settings.DocumentElement.SelectSingleNode("Plugout/Url").InnerText;
+                var processStartInfo = new ProcessStartInfo("explorer.exe", url)
+                {
+                    UseShellExecute = true,
+                    Verb = "open"
+                };
+                Process.Start(processStartInfo);
             }
             catch (Exception ex)
             {
