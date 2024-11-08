@@ -8,8 +8,8 @@
     <ProjectGuid>{9D2510C8-8722-4C77-BE58-A0B4D3DF069B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>lucidcode.LucidScribe.Plugout.Yocto.PowerRelay</RootNamespace>
-    <AssemblyName>lucidcode.LucidScribe.Plugout.Yocto.PowerRelay</AssemblyName>
+    <RootNamespace>lucidcode.LucidScribe.Plugout.Web</RootNamespace>
+    <AssemblyName>lucidcode.LucidScribe.Plugout.Web</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

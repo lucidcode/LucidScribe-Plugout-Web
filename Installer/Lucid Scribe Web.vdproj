@@ -351,15 +351,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Lucid Scribe Web"
-        "ProductCode" = "8:{AD208D0C-5437-4DE7-823F-7A941AC50E9F}"
-        "PackageCode" = "8:{1B04C2CA-2932-4CB2-B565-A0135C986547}"
+        "ProductCode" = "8:{D1913A04-0AC3-4A67-BF19-38DCA9AE9411}"
+        "PackageCode" = "8:{3F28393A-57FB-4BCC-8E26-B8AE6683132B}"
         "UpgradeCode" = "8:{43D08B97-E09B-45FA-97D2-B9B1971D8BDB}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.5"
         "Manufacturer" = "8:lucidcode"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://www.lucidcode.com/Contact"
@@ -883,7 +883,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8A04AA9B98A94963AADF2135268ACC52"
             {
-            "SourcePath" = "8:..\\Web\\obj\\Release\\lucidcode.LucidScribe.Plugout.Yocto.PowerRelay.dll"
+            "SourcePath" = "8:..\\Web\\obj\\Release\\lucidcode.LucidScribe.Plugout.Web.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_491A001224CF4D699EA475B2FB5F2890"
